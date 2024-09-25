@@ -24,7 +24,7 @@ Create a virtual environment (venv) on Mac
 To install the required tools:
 1. on the venv terminal: pip install -r requirements.txt
 
-****
+*
 To manually install the requirement:
 install Behave:
 1. on the venv terminal: pip install behave
@@ -35,7 +35,7 @@ install allure-behave
 
 install Selenium:
 1. on the venv terminal: pip install selenium
-*****
+*
 
 Run the test:
 behave -f allure_behave.formatter:AllureFormatter -o allure-results
